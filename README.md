@@ -1,14 +1,18 @@
 # Agentic OS
 
-A lightweight repo template for AI-assisted product engineering.
+A lightweight operational template for AI-assisted product engineering.
+
+Agentic OS is the working repo structure for applying the Product Engineer Handbook workflow.
 
 Use lanes, plans, specs, tickets, handovers, verification, archives, and project memory to move from idea to shipped product without relying on one endless AI chat.
 
-## Purpose
+For the reasoning behind this workflow, read the Product Engineer Handbook.
+
+## What This Is
 
 Agentic OS is not an automation framework.
 
-It is a project operating system for working with AI while keeping engineering ownership clear.
+It is a copyable project operating structure for working with AI while keeping engineering ownership clear.
 
 It helps you:
 
@@ -94,11 +98,14 @@ agentic-os/
     rules.md
 
   templates/
+    initiative.md
     plan.md
     spec.md
     ticket.md
     handover.md
+    review.md
     verification.md
+    lessons-learned.md
 ```
 
 ## Lanes
@@ -110,6 +117,17 @@ A lane gives the AI its working mode: role, priorities, tone, and expected outpu
 - `ui-ux` — flows, screens, copy, usability
 - `marketing` — positioning, messaging, distribution
 - `release` — rollout, risk, checklists, launch coordination
+
+## How To Use
+
+1. Pick the lane.
+2. Create a plan or spec from the templates.
+3. Decompose into small tickets.
+4. Review the ticket as a human before execution.
+5. Create a focused handover for the execution session.
+6. Execute in the implementation repository.
+7. Verify with deterministic checks.
+8. Record lessons and archive completed context.
 
 ## Core Rule
 
