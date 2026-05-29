@@ -2,13 +2,23 @@
 
 A lightweight operational template for AI-assisted product engineering.
 
-Agentic OS is the working repo structure for applying the Product Engineer Handbook workflow.
+Agentic OS is the working repo structure for applying the [Product Engineer Handbook](https://github.com/ahmedalaahagag/product-engineer-handbook) workflow.
 
 It is mainly designed for multi-repo products where planning, product decisions, execution, verification, and project memory need to stay coordinated without turning one AI chat into the source of truth.
 
 Use lanes, plans, specs, tickets, handovers, verification, archives, and project memory to move from idea to shipped product without relying on one endless AI chat.
 
-For the reasoning behind this workflow, read the Product Engineer Handbook.
+For the reasoning behind this workflow, read the [Product Engineer Handbook](https://github.com/ahmedalaahagag/product-engineer-handbook).
+
+## Companion Handbook
+
+This repository gives you the operational template.
+
+The [Product Engineer Handbook](https://github.com/ahmedalaahagag/product-engineer-handbook) explains the reasoning, rules, tradeoffs, and delivery model behind it.
+
+Use Agentic OS when you want the copyable repo structure.
+
+Use the handbook when you want to understand why the structure exists and how to operate it well.
 
 ## What This Is
 
