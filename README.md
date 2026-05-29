@@ -4,6 +4,8 @@ A lightweight operational template for AI-assisted product engineering.
 
 Agentic OS is the working repo structure for applying the Product Engineer Handbook workflow.
 
+It is mainly designed for multi-repo products where planning, product decisions, execution, verification, and project memory need to stay coordinated without turning one AI chat into the source of truth.
+
 Use lanes, plans, specs, tickets, handovers, verification, archives, and project memory to move from idea to shipped product without relying on one endless AI chat.
 
 For the reasoning behind this workflow, read the Product Engineer Handbook.
@@ -16,6 +18,7 @@ It is a copyable project operating structure for working with AI while keeping e
 
 It helps you:
 
+- coordinate multi-repo product work
 - separate planning from execution
 - give AI the right role through lanes
 - keep context outside chat history
@@ -76,6 +79,8 @@ Idea
 ## Structure
 
 A typical workspace keeps Agentic OS beside the implementation repositories.
+
+This is most useful when a product spans multiple repos such as backend, mobile, web, operations, infrastructure, or landing pages.
 
 ```text
 workspace/
