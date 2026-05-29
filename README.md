@@ -25,6 +25,29 @@ It helps you:
 - preserve durable project memory
 - archive completed or stale context
 
+## Meta Repo vs Execution Repos
+
+Agentic OS is the meta repository.
+
+It stores planning artifacts, tickets, handovers, verification notes, lessons, and project memory.
+
+It does not contain the product implementation.
+
+Execution repositories live outside the meta repo, for example:
+
+```text
+../product-server/
+../product-mobile/
+../product-web/
+../product-ops/
+```
+
+Planning and review can happen in the meta repo.
+
+Execution starts from the implementation repo.
+
+A cheaper or coding-focused execution model should be opened inside the target execution repo with a focused handover from Agentic OS. It should not start from the meta repo and scan everything.
+
 ## Workflow
 
 ```text
@@ -40,7 +63,7 @@ Idea
 -> Human Ticket Review
 -> Execution Handover
 -> Execution Model Selection
--> Execution
+-> Execution in target repo
 -> Verification
 -> AI Review
 -> Human Review
@@ -125,9 +148,10 @@ A lane gives the AI its working mode: role, priorities, tone, and expected outpu
 3. Decompose into small tickets.
 4. Review the ticket as a human before execution.
 5. Create a focused handover for the execution session.
-6. Execute in the implementation repository.
-7. Verify with deterministic checks.
-8. Record lessons and archive completed context.
+6. Open the target implementation repo.
+7. Start the execution model from that repo with the handover.
+8. Verify with deterministic checks.
+9. Record lessons and archive completed context.
 
 ## Core Rule
 
