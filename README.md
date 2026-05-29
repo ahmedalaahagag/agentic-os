@@ -75,61 +75,73 @@ Idea
 
 ## Structure
 
+A typical workspace keeps Agentic OS beside the implementation repositories.
+
 ```text
-agentic-os/
-  AGENTS.md
-  README.md
-  session-log.md
+workspace/
+  agentic-os/                 # meta repo: planning, tickets, handovers, memory
+    AGENTS.md
+    README.md
+    session-log.md
 
-  lanes/
-    product/
-      plans/
-      specs/
-      tickets/
-      archive/
-    coding/
-      plans/
-      specs/
-      tickets/
-      archive/
-    ui-ux/
-      plans/
-      specs/
-      tickets/
-      archive/
-    marketing/
-      plans/
-      specs/
-      tickets/
-      archive/
-    release/
-      plans/
-      specs/
-      tickets/
+    lanes/
+      product/
+        plans/
+        specs/
+        tickets/
+        archive/
+      coding/
+        plans/
+        specs/
+        tickets/
+        archive/
+      ui-ux/
+        plans/
+        specs/
+        tickets/
+        archive/
+      marketing/
+        plans/
+        specs/
+        tickets/
+        archive/
+      release/
+        plans/
+        specs/
+        tickets/
+        archive/
+
+    handovers/
       archive/
 
-  handovers/
-    archive/
+    verification/
+      scripts/
+      reports/
+      archive/
 
-  verification/
-    scripts/
-    reports/
-    archive/
+    lessons/
+      lessons-learned.md
+      rules.md
 
-  lessons/
-    lessons-learned.md
-    rules.md
+    templates/
+      initiative.md
+      plan.md
+      spec.md
+      ticket.md
+      handover.md
+      review.md
+      verification.md
+      lessons-learned.md
 
-  templates/
-    initiative.md
-    plan.md
-    spec.md
-    ticket.md
-    handover.md
-    review.md
-    verification.md
-    lessons-learned.md
+  product-server/             # execution repo: backend implementation
+  product-mobile/             # execution repo: mobile implementation
+  product-web/                # execution repo: web implementation
+  product-ops/                # execution repo: internal/admin tools
 ```
+
+Execution sessions should start from one of the implementation repositories, not from `agentic-os/`.
+
+The handover from `agentic-os/` tells the execution model what to do, which files to inspect first, and how to verify the work.
 
 ## Lanes
 
