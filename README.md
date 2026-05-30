@@ -20,6 +20,28 @@ Use Agentic OS when you want the copyable repo structure.
 
 Use the handbook when you want to understand why the structure exists and how to operate it well.
 
+## Why This Exists
+
+Agentic OS came out of experimenting with multi-agent, multi-repo, subagent-driven development.
+
+The models were capable, but the workflow needed stronger operational boundaries.
+
+Without structure, agentic work can drift into broad repo exploration, growing context, unclear ownership, and expensive execution.
+
+Agentic OS gives the engineer a control layer:
+
+- planning happens in the meta repo
+- execution happens in the target implementation repo
+- one ticket equals one task
+- exact files are named before execution
+- handovers bound the context
+- verification proves the result
+- humans own review and merge
+
+Dynamic workflows make this more important, not less.
+
+More autonomous agents need clearer inputs, stronger boundaries, and better verification.
+
 ## What This Is
 
 Agentic OS is not an automation framework.
