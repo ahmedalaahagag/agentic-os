@@ -2,11 +2,13 @@
 
 ## Purpose
 
-This repository coordinates AI-assisted product engineering work.
+This repository coordinates AI-assisted product engineering work for multi-repo projects.
 
 It stores plans, specs, tickets, handovers, verification notes, lessons, rules, and archived context.
 
 It does not implement product code.
+
+Product implementation lives in external execution repositories such as server, mobile, web, ops, infrastructure, or landing-page repos.
 
 ## Operating Rules
 
@@ -15,8 +17,11 @@ It does not implement product code.
 - Write plans before specs.
 - Write specs before tickets.
 - Keep tickets small, scoped, and verifiable.
+- Use one ticket for one task.
+- List exact files or surfaces to inspect first when known.
 - Human ticket review is required before execution.
-- Execution happens in the implementation repository, not here.
+- Execution happens in the target implementation repository, not here.
+- Start execution models from the target repository with a focused handover.
 - Every handover must include verification steps.
 - Every completed or stale artifact should be archived.
 - Product decisions, releases, and final responsibility remain human-owned.
