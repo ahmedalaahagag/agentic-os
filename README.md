@@ -29,8 +29,7 @@ workspace/
   product-meta/       # Agentic OS copy: planning, tickets, handovers, memory
   product-server/     # backend implementation
   product-mobile/     # mobile implementation
-  product-ops/        # admin or internal tooling
-  product-landing/    # landing page or marketing site
+  product-web/        # web app, landing page, or marketing site
 ```
 
 ## Companion Handbook
@@ -97,7 +96,6 @@ Execution repositories live outside the meta repo, for example:
 ../product-server/
 ../product-mobile/
 ../product-web/
-../product-ops/
 ```
 
 Planning and review can happen in the meta repo.
@@ -135,7 +133,7 @@ Idea
 
 A typical workspace keeps Agentic OS beside the implementation repositories.
 
-This is most useful when a product spans multiple repos such as backend, mobile, web, operations, infrastructure, or landing pages.
+This is most useful when a product spans multiple repos such as backend, mobile, web, infrastructure, or landing pages.
 
 ```text
 workspace/
@@ -195,8 +193,7 @@ workspace/
 
   product-server/             # execution repo: backend implementation
   product-mobile/             # execution repo: mobile implementation
-  product-web/                # execution repo: web implementation
-  product-ops/                # execution repo: internal/admin tools
+  product-web/                # execution repo: web app, landing page, or marketing site
 ```
 
 Execution sessions should start from one of the implementation repositories, not from `agentic-os/`.
