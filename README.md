@@ -10,6 +10,29 @@ Use lanes, plans, specs, tickets, handovers, verification, archives, and project
 
 For the reasoning behind this workflow, read the [Product Engineer Handbook](https://github.com/ahmedalaahagag/product-engineer-handbook).
 
+## Quick Start
+
+1. Copy this repository as your product meta repo.
+2. Keep your implementation repositories beside it.
+3. Pick the right lane for the work.
+4. Write a plan or specification.
+5. Decompose the work into small tickets.
+6. Create a focused handover for one ticket.
+7. Open the target implementation repository.
+8. Start the execution model from that repo with the handover.
+9. Verify the result and review it manually before merging.
+
+Example workspace:
+
+```text
+workspace/
+  product-meta/       # Agentic OS copy: planning, tickets, handovers, memory
+  product-server/     # backend implementation
+  product-mobile/     # mobile implementation
+  product-ops/        # admin or internal tooling
+  product-landing/    # landing page or marketing site
+```
+
 ## Companion Handbook
 
 This repository gives you the operational template.
