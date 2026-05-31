@@ -1,10 +1,10 @@
 # Smarter Models Made My Workflow Stricter, Not Looser
 
-> What building Suvo with Claude, Codex, Cursor, DeepSeek, and other AI coding tools taught me about agentic coding, token discipline, and why agents need an operating system.
+> What building real multi-repo software with Claude, Codex, Cursor, DeepSeek, and other AI coding tools taught me about agentic coding, token discipline, and why agents need an operating system.
 
 ## The assumption I had wrong
 
-When I first started using AI agents heavily for Suvo, I assumed the path was obvious: give the model more context, give it more autonomy, and let it handle bigger chunks of work.
+When I first started using AI agents heavily for real product engineering work, I assumed the path was obvious: give the model more context, give it more autonomy, and let it handle bigger chunks of work.
 
 That assumption was wrong.
 
@@ -90,9 +90,9 @@ A strong model with vague instructions can produce a lot of plausible work very 
 
 ## The meta-repo pattern
 
-For Suvo, the implementation is split across multiple repositories: backend, mobile app, admin UI, landing page, and planning artifacts.
+For multi-repo products, implementation often spans backend services, mobile apps, admin tools, web surfaces, infrastructure, and planning artifacts.
 
-A single AI chat was the wrong source of truth for that kind of product.
+A single AI chat is the wrong source of truth for that kind of product.
 
 So Agentic OS uses a meta-repo pattern:
 
