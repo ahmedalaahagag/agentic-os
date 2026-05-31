@@ -1,0 +1,134 @@
+<svg width="1935" height="813" viewBox="0 0 1935 813" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1935" y2="813" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#081827"/>
+      <stop offset="1" stop-color="#030912"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="150" x2="0" y2="455" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#0E7490" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#123047" stroke-width="1" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1935" height="813" fill="url(#bg)"/>
+  <rect width="1935" height="813" fill="url(#grid)" opacity="0.7"/>
+
+  <g opacity="0.18" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24" fill="#67E8F9">
+    <text x="1375" y="58">01  // Build with intent.</text>
+    <text x="1375" y="91">02  // Ship with confidence.</text>
+    <text x="1375" y="157">04  async function build(feature) {</text>
+    <text x="1375" y="190">05    const plan = await planWork(feature);</text>
+    <text x="1375" y="223">06    const tickets = await createTickets(plan);</text>
+    <text x="1375" y="256">07    await execute(tickets);</text>
+    <text x="1375" y="289">08    const results = await verify();</text>
+    <text x="1375" y="322">09    return await review(results);</text>
+    <text x="1375" y="355">10  }</text>
+  </g>
+
+  <g opacity="0.24" stroke="#22D3EE" stroke-width="2">
+    <path d="M1445 488 L1515 450 L1595 470 L1670 440 L1760 455 L1840 415"/>
+    <circle cx="1445" cy="488" r="5" fill="#22D3EE"/>
+    <circle cx="1515" cy="450" r="5" fill="#22D3EE"/>
+    <circle cx="1595" cy="470" r="5" fill="#22D3EE"/>
+    <circle cx="1670" cy="440" r="5" fill="#22D3EE"/>
+    <circle cx="1760" cy="455" r="5" fill="#22D3EE"/>
+    <circle cx="1840" cy="415" r="5" fill="#22D3EE"/>
+  </g>
+
+  <rect x="49" y="150" width="8" height="305" fill="url(#accent)"/>
+
+  <g filter="url(#shadow)">
+    <text x="118" y="230" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="116" font-weight="800" fill="#F8FAFC">Smarter Models</text>
+    <text x="118" y="360" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="100" font-weight="800" fill="#F8FAFC">Made My Workflow Stricter</text>
+    <text x="118" y="455" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="43" font-weight="400" fill="#CBD5E1">Agentic coding</text>
+    <circle cx="435" cy="438" r="7" fill="#22D3EE"/>
+    <text x="460" y="455" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="43" font-weight="400" fill="#CBD5E1">Token discipline</text>
+    <circle cx="802" cy="438" r="7" fill="#22D3EE"/>
+    <text x="827" y="455" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="43" font-weight="400" fill="#CBD5E1">Engineering ownership</text>
+  </g>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="600" fill="#F8FAFC" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(48 548)">
+      <rect width="205" height="122" rx="12" fill="#061523" stroke="#22D3EE" opacity="0.95"/>
+      <path d="M65 67 C42 44 58 21 82 21 C106 21 122 44 99 67 M72 83 H93 M76 96 H89" stroke="#22D3EE" stroke-width="3" fill="none"/>
+      <text x="113" y="75" stroke="none">Idea</text>
+    </g>
+
+    <path d="M263 609 H292 M292 609 L278 594 M292 609 L278 624" stroke="#94A3B8" stroke-width="4" opacity="0.75"/>
+
+    <g transform="translate(308 548)">
+      <rect width="205" height="122" rx="12" fill="#061523" stroke="#22D3EE" opacity="0.95"/>
+      <path d="M58 37 H98 V88 H58 Z M69 31 H87 M69 49 H87 M69 62 H87 M69 75 H87" stroke="#22D3EE" stroke-width="3" fill="none"/>
+      <text x="112" y="75" stroke="none">Plan</text>
+    </g>
+
+    <path d="M523 609 H552 M552 609 L538 594 M552 609 L538 624" stroke="#94A3B8" stroke-width="4" opacity="0.75"/>
+
+    <g transform="translate(572 548)">
+      <rect width="215" height="122" rx="12" fill="#061523" stroke="#F59E0B" opacity="0.95"/>
+      <path d="M51 39 H94 V86 H51 V69 H62 V56 H51 Z" stroke="#F59E0B" stroke-width="3" fill="none"/>
+      <text x="112" y="75" stroke="none">Tickets</text>
+    </g>
+
+    <path d="M797 609 H826 M826 609 L812 594 M826 609 L812 624" stroke="#94A3B8" stroke-width="4" opacity="0.75"/>
+
+    <g transform="translate(836 548)">
+      <rect width="220" height="122" rx="12" fill="#061523" stroke="#22D3EE" opacity="0.95"/>
+      <circle cx="55" cy="52" r="14" stroke="#22D3EE" stroke-width="3" fill="none"/>
+      <circle cx="85" cy="52" r="14" stroke="#22D3EE" stroke-width="3" fill="none"/>
+      <path d="M32 91 C35 75 46 69 61 69 M73 69 C89 69 101 76 104 91" stroke="#22D3EE" stroke-width="3" fill="none"/>
+      <text x="116" y="75" stroke="none">Handover</text>
+    </g>
+
+    <path d="M1066 609 H1095 M1095 609 L1081 594 M1095 609 L1081 624" stroke="#94A3B8" stroke-width="4" opacity="0.75"/>
+
+    <g transform="translate(1105 548)">
+      <rect width="225" height="122" rx="12" fill="#061523" stroke="#22D3EE" opacity="0.95"/>
+      <rect x="37" y="38" width="54" height="50" stroke="#22D3EE" stroke-width="3" fill="none"/>
+      <path d="M53 55 L65 66 L53 77 M70 78 H82" stroke="#22D3EE" stroke-width="3" fill="none"/>
+      <text x="114" y="75" stroke="none">Execution</text>
+    </g>
+
+    <path d="M1340 609 H1369 M1369 609 L1355 594 M1369 609 L1355 624" stroke="#94A3B8" stroke-width="4" opacity="0.75"/>
+
+    <g transform="translate(1381 548)">
+      <rect width="230" height="122" rx="12" fill="#061523" stroke="#22D3EE" opacity="0.95"/>
+      <path d="M55 35 L78 48 V73 C78 86 67 96 55 101 C43 96 32 86 32 73 V48 Z" stroke="#22D3EE" stroke-width="3" fill="none"/>
+      <path d="M45 68 L53 76 L67 59" stroke="#22D3EE" stroke-width="3" fill="none"/>
+      <text x="112" y="75" stroke="none">Verification</text>
+    </g>
+
+    <path d="M1621 609 H1650 M1650 609 L1636 594 M1650 609 L1636 624" stroke="#94A3B8" stroke-width="4" opacity="0.75"/>
+
+    <g transform="translate(1665 548)">
+      <rect width="220" height="122" rx="12" fill="#061523" stroke="#F59E0B" opacity="0.95"/>
+      <path d="M55 34 L63 56 L86 56 L68 70 L75 93 L55 79 L35 93 L42 70 L24 56 L47 56 Z" stroke="#F59E0B" stroke-width="3" fill="none"/>
+      <text x="112" y="75" stroke="none">Review</text>
+    </g>
+  </g>
+
+  <g opacity="0.55" stroke="#64748B" stroke-width="2" stroke-dasharray="8 12">
+    <path d="M150 686 V740 H1760 V686"/>
+    <path d="M407 686 V740"/>
+    <path d="M680 686 V740"/>
+    <path d="M946 686 V740"/>
+    <path d="M1218 686 V740"/>
+    <path d="M1496 686 V740"/>
+  </g>
+  <g fill="#64748B" opacity="0.75">
+    <circle cx="150" cy="686" r="5"/><circle cx="150" cy="740" r="7"/>
+    <circle cx="407" cy="686" r="5"/><circle cx="407" cy="740" r="7"/>
+    <circle cx="680" cy="686" r="5"/><circle cx="680" cy="740" r="7"/>
+    <circle cx="946" cy="686" r="5"/><circle cx="946" cy="740" r="7"/>
+    <circle cx="1218" cy="686" r="5"/><circle cx="1218" cy="740" r="7"/>
+    <circle cx="1496" cy="686" r="5"/><circle cx="1496" cy="740" r="7"/>
+    <circle cx="1760" cy="686" r="5"/>
+  </g>
+</svg>
