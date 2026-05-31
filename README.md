@@ -10,6 +10,10 @@ Use lanes, plans, specs, tickets, handovers, verification, archives, and project
 
 For the reasoning behind this workflow, read the [Product Engineer Handbook](https://github.com/ahmedalaahagag/product-engineer-handbook).
 
+## Articles
+
+- [Smarter Models Made My Workflow Stricter, Not Looser](docs/articles/smarter-models-made-my-workflow-stricter.md)
+
 ## Quick Start
 
 1. Copy this repository as your product meta repo.
