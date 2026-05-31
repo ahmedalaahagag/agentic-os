@@ -2,13 +2,21 @@
 
 > What building real multi-repo software with Claude, Codex, Cursor, DeepSeek, and other AI coding tools taught me about agentic coding, token discipline, and why agents need an operating system.
 
+This became more obvious after the recent Opus 4.8 and dynamic workflow push around Claude Code.
+
+The pitch is tempting: smarter models, more autonomy, more parallel agents, bigger tasks. But my experience points in the opposite direction. The more capable the agent, the more important it becomes to define the operating system around it.
+
 ## The assumption I had wrong
 
-When I first started using AI agents heavily for real product engineering work, I assumed the path was obvious: give the model more context, give it more autonomy, and let it handle bigger chunks of work.
+When I started using AI agents heavily for real product engineering work, I thought the next step was obvious.
 
-That assumption was wrong.
+Give the model more context.  
+Give it more autonomy.  
+Let it handle bigger chunks of work.
 
-The more capable the models became, the more dangerous loose workflow became. Long sessions drifted. Big prompts expanded scope. Multi-agent experiments created weak handoffs. Expensive models burned tokens doing work that cheaper models could have done if the task had been shaped properly.
+That was the wrong lesson.
+
+As the models became more capable, loose workflow became more expensive. Long sessions drifted. Big prompts expanded scope. Multi-agent experiments created weak handoffs. Premium models burned tokens doing mechanical work that cheaper models could have handled if the task had been shaped properly.
 
 The problem was not that AI coding agents were useless.
 
@@ -34,9 +42,7 @@ The main failure mode was operational.
 | Tool switching | Workflow optimization became a distraction from shipping. |
 | Premium-model execution | Expensive reasoning models did mechanical work. |
 
-AI did not remove engineering management.
-
-It moved engineering management closer to the code.
+AI did not remove engineering management. It moved engineering management closer to the code.
 
 The engineer became the product manager, architect, reviewer, context manager, cost controller, QA gate, and release owner. The model could execute, but only if the surrounding system made the work bounded, inspectable, and verifiable.
 
@@ -139,9 +145,7 @@ This is the opposite of how many people start. They open the strongest model, gi
 
 ## Dynamic workflows make discipline more important
 
-Dynamic workflows and subagents are impressive.
-
-They are also dangerous when used casually.
+Dynamic workflows and subagents are impressive, but they are not a substitute for engineering discipline.
 
 Parallelism does not fix unclear intent. It multiplies it.
 
