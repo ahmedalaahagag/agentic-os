@@ -1,4 +1,5 @@
-<img width="1935" height="813" alt="86y6wlsn6o5zlmihgp99" src="https://github.com/user-attachments/assets/dca40438-fa4b-4b84-8516-714b4bd72707" />
+<img width="1933" height="814" alt="image" src="https://github.com/user-attachments/assets/3a039d93-dd3d-4b66-95e0-1420be972f19" />
+
 
 # Agentic OS
 
