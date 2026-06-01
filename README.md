@@ -1,4 +1,7 @@
 <img width="1935" height="813" alt="86y6wlsn6o5zlmihgp99" src="https://github.com/user-attachments/assets/dca40438-fa4b-4b84-8516-714b4bd72707" />
+## Articles
+
+- [Smarter Models Made My Workflow Stricter, Not Looser](docs/articles/smarter-models-made-my-workflow-stricter.md)
 
 # Agentic OS
 
@@ -11,10 +14,6 @@ It is mainly designed for multi-repo products where planning, product decisions,
 Use lanes, plans, specs, tickets, handovers, verification, archives, and project memory to move from idea to shipped product without relying on one endless AI chat.
 
 For the reasoning behind this workflow, read the [Product Engineer Handbook](https://github.com/ahmedalaahagag/product-engineer-handbook).
-
-## Articles
-
-- [Smarter Models Made My Workflow Stricter, Not Looser](docs/articles/smarter-models-made-my-workflow-stricter.md)
 
 ## Quick Start
 
